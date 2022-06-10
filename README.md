@@ -6,10 +6,12 @@ Hide/Collapse Objectives and Quests Tracker while in Dungeons, Raid, PvP, and/or
 
 Under "Custom Options", configure what to do for each location setting -- Dungeons, Raid, PvP, Torghast, and "Everywhere Else":
 
-• Hide
-• Collapse All
-• Show & Expand
-• Collapse All But Instance (will constinue to show M+ info, Torghast info, etc.)
+- Hide
+- Collapse All
+- Show & Expand
+- Collapse All But Instance (will constinue to show M+ info, Torghast info, etc.)
+
+---
 
 **Note:**
 With the recent update to add "Collapse All But Instance", I moved the bulk of the code out of the trigger and into the `actions_oninit` function. This should work (and be more performant), however, when I first made this WA it seemed like that was causing issues for some people. Eventually, I put everything into the trigger to ensure all of the data would be available when needed.
