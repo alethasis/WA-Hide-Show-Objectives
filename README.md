@@ -9,7 +9,7 @@ Under "Custom Options", configure what to do for each location setting -- Dungeo
 - Hide
 - Collapse All
 - Show & Expand
-- Collapse All But Instance (will constinue to show M+ info, Torghast info, etc.)
+- Collapse All But Instance (will continue to show M+ info, Torghast info, etc.)
 
 ---
 
